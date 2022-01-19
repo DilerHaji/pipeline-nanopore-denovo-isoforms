@@ -15,10 +15,10 @@ cores: 20
 reads_fastq: "evaluation/data/SIRV_PSC109_phmm_fl.fq"
 
 # The path above is a directory, find and concatenate fastq files:
-concatenate: true
+concatenate: false
 
 # Process cDNA reads using pychopper, turn off for direct RNA:
-run_pychopper: true
+run_pychopper: false
 
 # Options passed to pychopper:
 pychopper_opts: ""
